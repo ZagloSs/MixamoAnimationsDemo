@@ -28,12 +28,24 @@ public class Transiciones_Anim : MonoBehaviour
         }
 
 
-
+        //Toggle Bailar
         if(Input.GetKeyDown(KeyCode.B)) 
         {
             anim.SetBool("bailando", !anim.GetBool("bailando"));
         }
-      
+
+        //Correr
+        if (Input.GetKey(KeyCode.LeftShift))
+        {
+            anim.SetBool("corriendo", true);
+
+        }
+        if (!Input.GetKey(KeyCode.LeftShift))
+        {
+            anim.SetBool("corriendo", false);
+
+        }
+
 
 
 

@@ -1,4 +1,4 @@
-<h1>----Animaciones (Mixamo)----</h1>
+<h1>Animaciones Mixamo</h1>
 
 Mantener 'W' para andar
 
